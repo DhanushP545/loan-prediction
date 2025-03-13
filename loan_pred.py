@@ -5,7 +5,7 @@ st.title("Loan Approval Prediction")
 
 
 # Collect input data from user
-Currency = st.selectbox(["USD","INR"])
+Currency = st.selectbox("Currency",["USD","INR"])
 ApplicantIncome = st.number_input("Applicant Income")
 CoapplicantIncome = st.number_input("Coapplicant Income")
 LoanAmount = st.number_input("Loan Amount")
